@@ -10,3 +10,8 @@ Includes functions that compute analytical approximations to the system of deter
 
 ## 3. theory_stochastic_1r1s.py:
 Includes functions that compute analytical solutions to the coarse-grained effective master equations in the limiting regimes and numerically simulate the reaction system by Gillespie algorithm detailed in Sections S1-S7 of the Supplementary Information.
+
+Experimental data used for fitting are retrieved from the following publications:
+- Monod, [1949](https://doi.org/10.1146/annurev.mi.03.100149.002103)
+- Varma and Palsson, [1994](https://doi.org/10.1128/aem.60.10.3724-3731.1994)
+- Enjalbert et al., [2015](https://doi.org/10.1128/jb.00128-15)
