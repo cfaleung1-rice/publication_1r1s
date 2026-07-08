@@ -834,7 +834,7 @@ if __name__ == "__main__":
     np.savetxt('B_X.txt', EX); np.savetxt('B_Y.txt', EY); np.savetxt('B_Z.txt', EZ)
     print(f'Example B (fast) complete: {datetime.now()-startB2}')
 
-    # C
+    # C (original)
     startC1 = datetime.now()
     kC, gC = 10**3, 1
     alphaC, betaC = 20, 30
@@ -851,7 +851,7 @@ if __name__ == "__main__":
     np.savetxt('C_X.txt', EX); np.savetxt('C_Y.txt', EY); np.savetxt('C_Z.txt', EZ)
     print(f'Example C (orig) complete: {datetime.now()-startC1}')
     
-    # C
+    # C (fast)
     startC2 = datetime.now()
     kC, gC = 10**3, 1
     alphaC, betaC = 20, 30
